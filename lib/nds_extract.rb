@@ -38,9 +38,16 @@ def total_gross(source)
   total = 0
   index = 0
   while index < list_of_directors.length do
-    total = total + directors_totals[:list_of_directors]
+    total = total + directors_totals[list_of_directors]
     index += 1
   end
+  h = {a: 1, b: 2, :c => 3 }
+  [1, :b, :c].each do |sym|
+    h[sym]
+  end
+  h = {1 => 1}
+  b = :a 
+  h[b] == 1
   # Write this implementation
   #
   # Should use methods:
