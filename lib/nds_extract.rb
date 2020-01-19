@@ -40,7 +40,7 @@ def total_gross(source)
       total = total + directors_totals[n]
       
   end
-  p total
+  total
   
 end
   
