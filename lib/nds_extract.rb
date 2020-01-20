@@ -45,13 +45,6 @@ def total_gross(source)
 end
   
   
-  # h = {a: 1, b: 2, :c => 3 }
-  # [1, :b, :c].each do |sym|
-  #   h[sym]
-  # end
-  # h = {1 => 1}
-  # b = :a 
-  # h[b] == 1
   # Write this implementation
   #
   # Should use methods:
