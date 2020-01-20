@@ -36,8 +36,9 @@ end
 
 def total_gross(source)
   total = 0
+  dtotal = directors_totals(source)
   list_of_directors(source).each do |n|
-      total = total + directors_totals[n]
+      total = total + dtotal[n]
       
   end
   total
